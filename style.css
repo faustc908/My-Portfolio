@@ -29,8 +29,9 @@ h1{
 
 .nav{
   float:right;
-  word-spacing:20px;
-  font-size: 20px; 
+  word-spacing:30px;
+  font-size: 25px; 
+  
 }
 
 header{
@@ -43,7 +44,7 @@ header{
   padding-top:10px; 
 }
 
-.quiztext,.experience{
+.quiztext,myLife{
   letter-spacing: 2px;
   word-spacing:2px;
   font-size:20px;
@@ -58,8 +59,6 @@ footer{
 }
 
 .myLife{
-  letter-spacing: 1px;
-  word-spacing: 2px;
   margin:50px;
   font-size:23px;
 }
@@ -84,8 +83,9 @@ a{
   font-size:20px;
 }
 
-.hamburger {
-  float:right;
-}
+
+
+
+
 
 
