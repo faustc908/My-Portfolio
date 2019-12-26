@@ -1,7 +1,7 @@
 html, body {
     margin: 0 auto;
     padding: 0px;
-    background-color:white;
+    background-color:rgb(255, 255, 255);
     font-family: 'PT Sans Narrow', sans-serif;
 } 
 
@@ -64,14 +64,14 @@ footer{
 }
 
 a{
-  color: rgb(35, 187, 192);
+  color: rgb(26, 129, 132);
   text-decoration:none;
 }
 
 .links{
   text-align:center;
   display: inline;
-  word-spacing: 60px;
+  word-spacing:60px;
   font-size:25px;
 }
 
@@ -82,6 +82,11 @@ a{
 .quizapplink{
   font-size:20px;
 }
+
+.break{
+  font-size:20px;
+}
+
 
 
 
