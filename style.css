@@ -16,7 +16,7 @@ h1{
   height:auto;
 }
 
-#welcome{
+#welcome1 , #welcome2{
   font-size:45px;
 }
 
@@ -44,8 +44,7 @@ header{
   padding-top:10px; 
 }
 
-.quiztext,myLife{
-  letter-spacing: 2px;
+.quiztext{
   word-spacing:2px;
   font-size:20px;
 }
@@ -69,10 +68,11 @@ a{
 }
 
 .links{
-  text-align:center;
-  display: inline;
+  text-align:center;  
   word-spacing:60px;
-  font-size:25px;
+  font-size:22px;
+  padding-right:10px;
+  padding-left:30px;
 }
 
 .starWars{
@@ -81,16 +81,28 @@ a{
 
 .quizapplink{
   font-size:20px;
+  text-align:center;
+  padding-right:10px;
+  padding-left:30px;
 }
 
-.break{
-  font-size:20px;
+
+@media screen and (max-width: 320px){
+  #welcome1 , #welcome2{
+    font-size:30px;
+  }
+  .starWars{
+    max-width:80%;
+  }
+  p{
+    font-size:18px !important;
+  }
+  .myname{
+    font-size:22px;
+  }
+  .nav{
+    font-size:22px;
+  }
 }
-
-
-
-
-
-
 
 
